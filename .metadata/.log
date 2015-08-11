@@ -36,3 +36,39 @@ java.io.IOException: Le processus ne peut pas accéder au fichier car un autre p
 	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:187)
 	at org.eclipse.egit.ui.internal.staging.StagingView$42.run(StagingView.java:2123)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 4 0 2015-08-11 22:40:15.645
+!MESSAGE Le processus ne peut pas accéder au fichier car un autre processus en a verrouillé une partie
+!STACK 0
+java.io.IOException: Le processus ne peut pas accéder au fichier car un autre processus en a verrouillé une partie
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(Unknown Source)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:302)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:103)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:187)
+	at org.eclipse.egit.ui.internal.staging.StagingView$42.run(StagingView.java:2123)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 4 0 2015-08-11 23:02:53.525
+!MESSAGE Le processus ne peut pas accéder au fichier car un autre processus en a verrouillé une partie
+!STACK 0
+java.io.IOException: Le processus ne peut pas accéder au fichier car un autre processus en a verrouillé une partie
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(Unknown Source)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:302)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:103)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:187)
+	at org.eclipse.egit.ui.internal.staging.StagingView$42.run(StagingView.java:2123)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 4 0 2015-08-11 23:03:00.159
+!MESSAGE Le processus ne peut pas accéder au fichier car un autre processus en a verrouillé une partie
+!STACK 0
+java.io.IOException: Le processus ne peut pas accéder au fichier car un autre processus en a verrouillé une partie
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(Unknown Source)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:302)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:103)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:187)
+	at org.eclipse.egit.ui.internal.staging.StagingView$42.run(StagingView.java:2123)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

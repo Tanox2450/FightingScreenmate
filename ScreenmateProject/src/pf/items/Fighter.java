@@ -4,7 +4,23 @@ public class Fighter {
 
 	private String name = "";
 	private Position position;
-	private Image image;
+	private Posture posture = new Guard();
+
+	public Posture getImage() {
+		return posture;
+	}
+
+	public void setImage(Posture posture) {
+		this.posture = posture;
+	}
+
+	public Posture getPosture() {
+		return posture;
+	}
+
+	public void setPosture(Posture posture) {
+		this.posture = posture;
+	}
 
 	public String getName() {
 		return name;

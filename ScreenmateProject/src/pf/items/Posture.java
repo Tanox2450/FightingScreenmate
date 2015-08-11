@@ -1,8 +1,11 @@
 package pf.items;
 
-public class Image {
+public abstract class Posture {
 
-	private String imagePath;
+	private String imagePath = new String("");
+
+	public Posture() {
+	}
 
 	public String getImagePath() {
 		return imagePath;
